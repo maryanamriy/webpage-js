@@ -18,6 +18,8 @@ header, h1, h2, h3, div, footer, p, main {
 }
 
 body {
+    max-width: 980px;
+    margin: auto;
     background-color: black;
 }
 
@@ -31,6 +33,7 @@ body {
 .header .menu li {
     list-style-type: none;
     margin: 20px;
+    display: flex;
 }
 
 .header .menu a {
@@ -205,4 +208,6 @@ footer {
     color: white;
     padding: 0px;
     margin: 25px;
+    display: flex;
+    align-self: center;
 }
