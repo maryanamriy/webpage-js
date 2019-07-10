@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Russo+One&display=swap');
+
+:root {
+    font-family: 'Noto Sans TC', sans-serif;
+    --accent-color: #f7ba2a;
+}
+
+.header .logo {
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+header, h1, h2, h3, div, footer, p, main {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    flex: 1;
+}
+
+.header .menu li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.header .menu a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 2px;
+    color: white;
+}
+
+.header .menu a:hover {
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+}
+
+.header .box-left {
+    margin:0;
+    float: left;
+    width: 140px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    flex: 1;
+    background-color: var(--accent-color);
+  }
+
+  .header .slideShow {
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin: 30px;
+    padding: 0px;
+}
+
+.clearfix ul {
+    float: left;
+    width: 100%;
+    color: white;
+    padding: 0px;
+    margin: 15px;
+}
+
+.clearfix img {
+    float: right;
+    margin: 2px;
+    padding: 0;
+    width: 100%;
+}
+
+.clearfix li {
+    list-style-type: none;
+}
+
+@media (min-width: 620px) {
+    .clearfix {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+@media (min-width: 640px) {
+    .clearfix {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.main-photos img {
+    float: center;
+    margin: 20px;
+    padding: 20px;
+    width: 95%;
+}
+
+@media (min-width: 920px) {
+    .main-photos {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+@media (min-width: 940px) {
+    .main-photos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.second-photos img {
+    float: center;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+
+@media (min-width: 620px) {
+    .second-photos {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+@media (min-width: 640px) {
+    .second-photos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+.third-photos img {
+    float: center;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+@media (min-width: 620px) {
+    .third-photos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 640px) {
+    .third-photos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+iframe {
+    float: left;
+    margin: 15px;
+    padding: 0;
+    width: 45%;
+}
+
+.location {
+    float: right;
+    width: 45%;
+    color: white;
+    padding: 0px;
+    margin: 25px;
+}
+
+.link {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 15px;
+}
+
+.link a {
+    color: white;  
+}
+
+footer {
+    float: center;
+    width:100%;
+    color: white;
+    padding: 0px;
+    margin: 25px;
+}
