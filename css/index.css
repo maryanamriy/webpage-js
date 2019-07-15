@@ -10,6 +10,7 @@
     font-size: 3rem;
     text-align: center;
     color: white;
+    background-color: var(--accent-color)
 }
 
 header, h1, h2, h3, div, footer, p, main {
@@ -72,11 +73,12 @@ body {
 
 h1 {
     font-family: 'Russo One', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     color: white;
     margin: 50px;
     padding: 0px;
+    background-color: var(--accent-color)
 }
 
 .clearfix ul {
@@ -210,4 +212,10 @@ footer {
     margin: 25px;
     display: flex;
     align-self: center;
+}
+
+.scroll__top {
+    float: right;
+    display: flex;
+
 }
